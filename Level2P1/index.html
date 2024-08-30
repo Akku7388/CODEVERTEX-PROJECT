@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tribute to Dr. Bheemrao Ramji Ambedkar</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Additional custom styles */
+      body {
+        font-family: "Merriweather", serif;
+        background: url("https://www.publicdomainpictures.net/pictures/320000/velka/old-paper-texture-1572553170ULy.jpg")
+          no-repeat center center fixed;
+        background-size: cover;
+        color: #4a4a4a;
+      }
+      .image-overlay {
+        position: relative;
+        overflow: hidden;
+        border: 4px solid #8b4513;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+      }
+      .image-overlay img {
+        transition: transform 0.5s ease;
+      }
+      .image-overlay:hover img {
+        transform: scale(1.1);
+      }
+      .fade-in {
+        animation: fadeIn 2s ease-in-out;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      h1,
+      h2,
+      h3 {
+        color: #8b4513;
+      }
+      .content-container {
+        background: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="bg-opacity-75 text-center py-12">
+      <h1 class="text-5xl font-extrabold fade-in">
+        Tribute to Dr. Bheemrao Ramji Ambedkar
+      </h1>
+      <p class="mt-4 text-xl font-medium">
+        The Architect of the Indian Constitution
+      </p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto my-12 p-8 fade-in">
+      <div class="content-container">
+        <section class="text-center">
+          <div
+            class="image-overlay w-72 h-72 mx-auto rounded-lg shadow-lg overflow-hidden"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Dr._Bhimrao_Ambedkar.jpg/220px-Dr._Bhimrao_Ambedkar.jpg"
+              alt="Dr. Bheemrao Ambedkar"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <h2 class="text-4xl font-bold mt-6">Dr. Bheemrao Ramji Ambedkar</h2>
+          <p class="mt-2 text-lg text-gray-600">
+            14 April 1891 – 6 December 1956
+          </p>
+        </section>
+
+        <section class="mt-10">
+          <h3 class="text-3xl font-semibold mb-4">Early Life</h3>
+          <p class="leading-loose text-lg text-justify">
+            Dr. Bheemrao Ramji Ambedkar, popularly known as Babasaheb Ambedkar,
+            was born on 14 April 1891 in Mhow, India. He was a social reformer,
+            jurist, economist, politician, and the principal architect of the
+            Indian Constitution. Born into a Dalit family, he faced severe
+            discrimination but went on to become one of India's most influential
+            leaders.
+          </p>
+        </section>
+
+        <section class="mt-10">
+          <h3 class="text-3xl font-semibold mb-4">Contributions</h3>
+          <ul class="list-disc list-inside leading-loose text-lg text-justify">
+            <li>
+              <strong>Father of the Indian Constitution:</strong> Ambedkar was
+              the Chairman of the Drafting Committee of the Indian Constitution.
+              His efforts were instrumental in shaping modern India's legal and
+              political structure.
+            </li>
+            <li>
+              <strong>Social Reforms:</strong> He tirelessly worked for the
+              upliftment of the Dalits and other marginalized communities,
+              advocating for their rights and fighting against social
+              discrimination.
+            </li>
+            <li>
+              <strong>Economic Thought:</strong> Ambedkar's economic ideas and
+              thoughts on labor, land, and agricultural reforms were ahead of
+              his time and contributed significantly to the economic policies of
+              independent India.
+            </li>
+          </ul>
+        </section>
+
+        <section class="mt-10">
+          <h3 class="text-3xl font-semibold mb-4">Legacy</h3>
+          <p class="leading-loose text-lg text-justify">
+            Dr. Ambedkar passed away on 6 December 1956, leaving behind a legacy
+            of justice, equality, and social reform. His life's work continues
+            to inspire millions across the globe. In 1990, he was posthumously
+            awarded the Bharat Ratna, India's highest civilian award.
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer
+      class="bg-opacity-75 text-white text-center py-6 mt-12"
+      style="background-color: #8b4513"
+    >
+      <p>&copy; 2024 All rights reserved to Alka Gautam</p>
+    </footer>
+  </body>
+</html>
